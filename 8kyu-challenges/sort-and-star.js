@@ -58,3 +58,12 @@ function twoSort(s) {
   return first.split("").join("***");
 }
 
+
+// Solution 5
+function twoSort (strings) {
+  return [...strings]
+    .sort()
+    .shift()
+    .split("")
+    .join("***")
+}
